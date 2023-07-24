@@ -1,0 +1,211 @@
+/* general body */
+
+body {
+    background-image: url(myimg/backgroundbody.avif);
+    background-repeat: repeat-x repeat-y;
+    background-size: 500px;
+}
+
+
+/* navbar style */
+
+.navbar {
+    background-color: rgba(68, 32, 81, 0.95);
+    padding-top: 24px;
+    padding-bottom: 24px;
+    transition: padding 0.5s ease-in-out;
+}
+
+.navbar-scroll {
+    background-color: rgba(68, 32, 81, 0.9) !important;
+    transition: background-color 0.5s ease-in-out, padding 0.5s ease-in-out;
+    padding: 8px 0px;
+    box-shadow: 0px 20px 50px rgba(0, 0, 0, 0.3);
+}
+
+
+/* search */
+
+.btn-search {
+    position: absolute;
+    padding: 6px 16px;
+    top: 50%;
+    right: 0px;
+    transform: translateY(-50%);
+    border: none;
+    border-radius: 0px 24px 24px 0px;
+    -webkit-border-radius: 0px 24px 24px 0px;
+    -moz-border-radius: 0px 24px 24px 0px;
+    -ms-border-radius: 0px 24px 24px 0px;
+    -o-border-radius: 0px 24px 24px 0px;
+    -webkit-transform: translateY(-50%);
+    -moz-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    -o-transform: translateY(-50%);
+}
+
+.btn-search:hover {
+    background-color: rgba(0, 0, 0, 0.10);
+    color: white;
+}
+
+
+/* style button daftar dan masuk */
+
+.btn-masuk {
+    background-color: rgba(251, 121, 255, 0.25);
+    color: white;
+    margin-right: 16px;
+    padding: 8px 24px;
+}
+
+.btn-daftar {
+    background-color: rgba(148, 90, 199, 0.5);
+    color: white;
+    padding: 8px 24px;
+}
+
+.btn-masuk:hover {
+    background-color: rgba(0, 0, 0, 0.15);
+    transition: background-color 0.5s ease, color 0.5s ease;
+    color: white;
+}
+
+.btn-daftar:hover {
+    background-color: rgba(0, 0, 0, 0.15);
+    transition: background-color 0.5s ease, color 0.5s ease;
+    color: white;
+}
+
+.greeting {
+    background-color: #007bff;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+.greeting h1 {
+    font-size: 36px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+
+/* canvas beranda */
+
+.content-beranda {
+    background-color: white;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
+    padding: 0px;
+    padding-top: 130px;
+    padding-bottom: 128px;
+}
+
+
+/* promo banner */
+
+#promobelajar {
+    margin-bottom: 64px;
+}
+
+.outlinepromo {
+    outline: 2px solid rgba(0, 0, 0, 0.15);
+}
+
+
+/* penawaran kursus */
+
+.section {
+    padding: 0px 16px;
+    margin-bottom: 64px;
+}
+
+
+/* title dari jenis penawaran kursus */
+
+.card-title a {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    text-decoration: none;
+    color: rgb(40, 40, 40);
+}
+
+.card-title a:hover {
+    color: rgb(133, 71, 149);
+    text-decoration: underline;
+}
+
+
+/* readmore dari penjelasan kursus */
+
+.card-text .read-more {
+    cursor: pointer;
+    color: rgb(108, 108, 108);
+    text-decoration: none;
+}
+
+.card-text .read-more:hover {
+    color: rgb(63, 63, 63);
+}
+
+
+/* dokumentasi Pembelajaran */
+
+.pencapaian {
+    margin-bottom: 32px;
+}
+
+.galeri {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    margin-bottom: 32px;
+}
+
+.achievement-image {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+    border-radius: 16px;
+    -webkit-border-radius: 16px;
+    -moz-border-radius: 16px;
+    -ms-border-radius: 16px;
+    -o-border-radius: 16px;
+    outline: 2px solid rgba(168, 168, 168, 0.5);
+}
+
+.achievement-caption {
+    margin-top: 16px;
+}
+
+.achievement-title {
+    font-size: 20px;
+    font-weight: bold;
+    color: #333;
+}
+
+.achievement-description {
+    font-size: 16px;
+    color: #666;
+}
+
+@media (max-width: 768px) {
+    .col-md-6 {
+        flex: 0 0 100%;
+        max-width: 100%;
+    }
+}
+
+.footer {
+    padding: 64px 64px;
+    background-color: rgba(68, 32, 81);
+}
+
+.footer .list-inline-item a i {
+    color: white;
+    font-size: 1.2em;
+}
